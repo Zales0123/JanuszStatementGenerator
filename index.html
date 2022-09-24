@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html {
+            color-scheme: dark;
+        }
+        #quote {
+            padding: 4em;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="quote"></h1>
+    <script>
+        fetch('data.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                displayQuote(data);
+            })
+
+        function displayQuote(parsedData) {
+            document.querySelector('#quote').innerHTML =
+                parsedData.introductions[Math.floor(Math.random() * parsedData.introductions.length)] +
+                parsedData.who[Math.floor(Math.random() * parsedData.who.length)] +
+                parsedData.how[Math.floor(Math.random() * parsedData.how.length)] +
+                parsedData.what[Math.floor(Math.random() * parsedData.what.length)] +
+                parsedData.why[Math.floor(Math.random() * parsedData.why.length)] +
+                parsedData.culminations[Math.floor(Math.random() * parsedData.culminations.length)];
+        }
+    </script>
+</body>
+</html>

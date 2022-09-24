@@ -46,7 +46,7 @@ $why = [
     'bo tak się uczy w państwowej szkole, ',
     'bo bez tego (tfu!) demokracja nie może istnieć, ',
     'bo głupich jest więcej niż mądrych, ',
-    'bo chcą tworzyć raj dla ziemi, ',
+    'bo chcą tworzyć raj na ziemi, ',
     'bo chcą niszczyć cywilizację białego człowieka, ',
 ];
 

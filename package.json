@@ -1,0 +1,24 @@
+{
+  "name": "janusz-statement-generator",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Czymże byłby dzień bez kolejnej światłej wypowiedzi Króla Janusza? Nie pozwól by brak internetu, telewizji czy radia pozbawił Cię tej przyjemności. Wygeneruj ją sam!",
+  "main": "jkm.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zales0123/JanuszStatementGenerator.git"
+  },
+  "keywords": [
+    "jkm",
+    "janusz"
+  ],
+  "author": "Mateusz Zalewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zales0123/JanuszStatementGenerator/issues"
+  },
+  "homepage": "https://github.com/Zales0123/JanuszStatementGenerator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
